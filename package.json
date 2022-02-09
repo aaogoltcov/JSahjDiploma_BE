@@ -1,0 +1,31 @@
+{
+  "name": "JSahjDiploma_BE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "https://github.com/aaogoltcov/JSahjDiploma_BE.git",
+  "scripts": {
+    "prestart": "yarn install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "aaogoltcov",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "bson": "^4.5.2",
+    "forever": "^3.0.4",
+    "http": "^0.0.1-security",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.5",
+    "yarn": "^1.22.10"
+  },
+  "engines": {
+    "node": "16.x",
+    "yarn": "1.x"
+  }
+}
